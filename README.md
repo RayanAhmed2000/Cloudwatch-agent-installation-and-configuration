@@ -15,6 +15,9 @@ cd /opt/aws/amazon-cloudwatch-agent/bin/
 ```
 # Creating alarms for CUSTOM metrices
 - Although clouwatch provides all the required metrices but in some cases we will have to create our own metrics
-- For example for on of clients GSTN-E-Invoicing client said create a dashboard of cloudwatch in which track *Number of API calls recived and from which IRP*
+- For example for on of clients GSTN-E-Invoicing client said create a dashboard of cloudwatch in which track **Number of API calls recived and from which IRP**
 - All data is saved in Log groups
-- from there we will create *a metric filter*
+- from there we will create **a metric filter**
+- To create go to CloudWatch>Log groups> Einvoice-prod-auth-td
+- Toggle on to Metric filters tab
+- Now define a pattern
